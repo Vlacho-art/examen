@@ -11,6 +11,6 @@ de una tienda, permitiendo crear, listar, actualizar y eliminar productos, utili
 ● Estructuras switch-case
 
 integrantes:
-Sebastian Lopez Morelo
-Vladimir Durango Vargas
+Sebastian Lopez Morelo-
+Vladimir Durango Vargas-
 Andrés Mauricio Meza De La Ossa
