@@ -12,14 +12,13 @@ void eliminarProducto() {
   }
 
   print('Ingrese el número del producto a eliminar: ');
-  int? numero = int.tryParse(stdin.readLineSync() ?? '');
+  int numero = int.tryParse(stdin.readLineSync() ?? '') ?? 0;
 
-  if (numero == null || numero < 1 || numero > productos.length) {
+  if (numero < 1 || numero > productos.length) {
     print('Número inválido.');
     return;
   }
 
   productos.removeAt(numero - 1);
-
   print('Producto eliminado correctamente.');
 }
